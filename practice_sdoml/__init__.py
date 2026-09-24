@@ -1,9 +1,7 @@
 """
-Paquete principal de practice_sdoml.
+.. include:: ../README.md
 """
-from practice_sdoml import config
-from practice_sdoml import dataset
-from practice_sdoml import features
+
 from practice_sdoml import plots
 from practice_sdoml import modeling
 
@@ -22,3 +20,5 @@ __all__ = [
     "SimpleNet",
     "train",
 ]
+
+__version__ = "0.1.0"
